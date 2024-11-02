@@ -1,19 +1,25 @@
 import { NavLink } from "react-router-dom";
+import Banner from "../Home/Banner";
+import Categories from "../Home/Category/Categories";
+
 
 
 const Navbar = () => {
+
+                    
 
 const links = 
                   
                     <>
                     <li><NavLink to={'/'}>Home</NavLink></li>
-                    <li><NavLink to={'/dashboard'}>Listed Books</NavLink></li>
+                    <li><NavLink to={'/coffeeList'}>Listed Books</NavLink></li>
                     <li><NavLink to={'/read'}>Pages To Read</NavLink></li>
                    
                     </>
                    
 
                     return (
+                                        <>
                                         <div className="navbar bg-base-100">
 <div className="navbar-start">
 <div className="dropdown">
@@ -47,7 +53,12 @@ className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52
 <div className="navbar-end">
 <a className="btn">Button</a>
 </div>
+
 </div>
+<Banner></Banner>
+<Categories></Categories>
+
+</>
                     );
 };
 

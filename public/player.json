@@ -1,0 +1,89 @@
+[ {
+                    "id" : 1,
+                    "playerName": "Mushfiqur Rahim",
+                    "country": "Bangladesh",
+                    "image": "https://i.ibb.co.com/K9N12q4/350.png",
+                    "role": "Batsman",
+                    "battingType": "Right-hand bat",
+                    "biddingPrice": 100000
+                                      },
+                     {
+                      "id" : 2,
+                      "playerName": "Tamim Iqbal",
+                      "country": "Bangladesh",
+                      "image": "https://i.ibb.co.com/XkT4cQT/images-3.jpg",
+                      "role": "Batsman",
+                      "battingType": "Left-hand bat",
+                      "biddingPrice": 100100
+                    },
+                  
+                    {
+                                        "id" : 3,
+                      "playerName": "Mahmudullah",
+                      "country": "Bangladesh",
+                      "image": "https://i.ibb.co.com/7n2Pkvz/ezgif-2-9828453b56.jpg",
+                      "role": "All-rounder",
+                      "battingType": "Right-hand bat",
+                      "bowlingType": "Right arm off-break",
+                      "biddingPrice": 101000
+                    },
+                    {
+                                        "id" : 4,
+                      "playerName": "Mustafizur Rahman",
+                      "country": "Bangladesh",
+                      "image": "https://i.ibb.co.com/tpnG1PD/images-1.jpg",
+                      "role": "Bowler",
+                      "bowlingType": "Left-arm fast-medium",
+                      "biddingPrice": 110000
+                    },
+                    {
+                                        "id" : 5,
+                      "playerName": "Babar Azam",
+                      "country": "Pakistan",
+                      "image": "https://i.ibb.co.com/hgrrBnL/131732569-babarazam.jpg",
+                      "role": "Batsman",
+                      "battingType": "Right-hand bat",
+                      "biddingPrice": 200000
+                    },
+                    {
+                                        "id" : 6,
+                      "playerName": "Shaheen Afridi",
+                      "country": "Pakistan",
+                      "image": "https://i.ibb.co.com/zfHX023/Shaheennew-1.jpg",
+                      "role": "Bowler",
+                      "bowlingType": "Left-arm fast",
+                      "biddingPrice": 200200
+                    },
+                    {
+                                        "id" : 7,
+                      "playerName": "Mohammad Rizwan",
+                      "country": "Pakistan",
+                      "image": "https://i.ibb.co.com/qNKTDNm/images-2.jpg",
+                      "role": "Batsman",
+                      "battingType": "Right-hand bat",
+                      "biddingPrice": 210000
+                    },
+                   
+                 
+                    {
+                                        "id" : 8,
+                      "playerName": "Adil Rashid",
+                      "country": "England",
+                      "image": "https://i.ibb.co.com/XFQMYBM/images-4.jpg",
+                      "role": "Bowler",
+                      "bowlingType": "Right-arm leg-break",
+                      "biddingPrice": 250000
+                    },
+                    
+                        {           "id" : 9,
+                    "playerName": "Moin Ali",
+                    "country": "England",
+                    "image": "https://i.ibb.co.com/JpN9Btj/54eec0b0-6da1-11ef-8f40-abb8708ece2a.jpg",
+                    "role": "All-rounder",
+                    "battingType": "left-hand bat",
+                    "bowlingType": "Right arm off-break",
+                    "biddingPrice": 170000
+                                      }
+
+                  ]
+                  

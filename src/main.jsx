@@ -6,8 +6,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Root from './Component/Root/Root';
-import Banner from './Component/Home/Banner';
 import Home from './Component/Home/Home';
+import Cards from './Component/Cards/Cards';
+
 
 const router = createBrowserRouter([
   {
@@ -16,11 +17,26 @@ const router = createBrowserRouter([
     errorElement: <div className='min-h-96 flex flex-col justify-center items-center'><h1 className='text-6xl text-red-600 font-extrabold '>Page not found (404)</h1></div>,
 
     children: [
-      {path: '/',
-        element: <Banner></Banner> 
-},
-    
-    ]
+      {
+          
+        path: '/',
+        loader: () => fetch('/coffee.json'),
+        element: <Cards></Cards>
+      
+    },
+      {
+          
+        path: 'category/:category',
+        loader: () => fetch('/coffee.json'),
+        element: <Cards></Cards>
+      
+    }
+
+   ]
+  } ,
+  {
+    path: '/coffeeList',
+    element: 'hello'
   }
 ])
 
